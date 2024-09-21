@@ -1,0 +1,34 @@
+mainly python is the language going to use
+trying to avoid computer vision and machine learning as posible as I can within this project
+
+
+I aim to develop a Python program to trace particle tracks in a fluid system,
+
+- first, we mix non-interactive fairly visible particles into a fluid that we want to observe the characteristic
+
+- then we take an image sequence of the fluid (in which we observe the characteristics) in action such as how the fluid interacts with obstacles and creates turbulence
+
+- also image of a pure fluid sample will be taken
+
+- then we can apply our image processing technique to trace the paths of the particles
+
+- output will be a diagram of the paths showing the traces of the particle
+
+
+
+image processing part
+
+ - we could use image subtraction to select the particles
+
+ - and make clear the images we are taking
+
+ - there might be shots with particles distorted, I might treat them as well with image processing
+
+ - then the particles must be recognized in each image so that we can trace the path accurately
+
+ - finally, there must be a diagram showing the paths of each particle it would be better if we could assign different colors to each track with different colors.
+
+ 
+
+Particle Tracking in Fluid Systems Using Image Processing Techniques
+
